@@ -5,6 +5,9 @@ on:
   release:
     types: [published, prereleased]
 
+env:
+  GHCR_PAT: ${{ secrets.GHCR_PAT }}
+
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -2,7 +2,7 @@
   "bridge": {
     "basic": {
       "datastoreversion": "113",
-      "swversion": "1959097030",
+      "swversion": "1968096020",
       "apiversion": "1.48.0",
       "modelid": "BSB002",
       "factorynew": false,
@@ -54,7 +54,7 @@
         "state": "noupdates",
         "autoinstall": {
           "updatetime": "T06:00:00",
-          "on": true
+          "on": false
         }
       }
     }

@@ -7,7 +7,6 @@ services:
       - HASS_TOKEN=xxxxxx
       - HASS_URL=http://192.168.1.1:8123
 #      - VERBOSE=true
-    image: ghcr.io/hass-emulated-hue/core:0.2.9 # <<< Desired release version here
     volumes:
       - ./your-directory-here:/config/.emulated-hue
 # If host networking mode is undesired,
